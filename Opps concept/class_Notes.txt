@@ -1,0 +1,34 @@
+Opps class notes:
+
+class is a collection of object, of a blue print from which a object is created.
+class has attributes or variable and which are public to the class.
+and can be accessed using myclass.myattributes.
+
+object:
+it is an instance of a class.
+has state or attribute, behavior and identity.
+
+state or attribute is a variable of of instance.
+name of the object is called identity.
+behavior it represent by the method of a class.
+
+method:  a function inside a class is called as method.
+
+
+caling method::
+print(emp1.fullname()) obj.method 
+print(emp2.fullname())
+
+#or
+print(Employee.fullname(emp1))  # class.method(obj)
+print(Employee.fullname(emp1))  # class.method(obj)
+
+Above two method are both one and the same.
+
+error with method with passin self:
+ fullname() takes 0 positional arguments but 1 was given
+ 
+ 
+class variable:
+    class variable is public to all the objects and same to all the object within class.
+ 

@@ -1,0 +1,37 @@
+Notes for python ::
+
+python docmentation link :
+https://docs.python.org/3.7/
+
+
+List of error and their explaination:
+
+
+The Problem: typeerror: ‘int’ object is not iterable
+
+“typeerror: ‘int’ object is not iterable”
+
+There are two parts to this error message: TypeError and the error message.
+
+A TypeError is raised when a function is applied to an object of the wrong data type. For instance, if you try to apply a mathematical function to a string, or call a value like a function which is not a function, a TypeError is raised.
+
+The error message tells us that you have tried to iterate over an object that is not iterable. Iterable objects are items whose values you can access using a “for loop”.
+
+
+Functions
+code reusing functions
+Define functions , pass arguments into functions, exrtact return values from function,
+functions that changes the state of the program, that is, have observable effect other than their return values, are said to have side effects.
+
+function with side effects are hard to parallelize and use in a distributed envirnoment.
+
+correct ways of returning values from fucntions as well as of invoking function using both positional and keyword arguments.
+
+keyword agruments also known as named arguments are a great way of making the intent behind function invocation absolutely explicit.
+
+
+
+
+
+
+

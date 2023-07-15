@@ -1,0 +1,18 @@
+Recursion notes.
+
+A function which called itself again and again is called recursion.
+A big complex problem which consist of same smaller problem is called Recursion.
+
+A head recursion is consist of a:
+    ! A base case or a stop condition.
+    ! Need a recursive relation.
+    ! And then returning the function for the other left problem.or doing some processing.
+
+A tail recursion is consist of a:
+    ! A base case or a stop condition.
+    ! Need a recursive relation.
+    ! will do some processing.
+    
+    
+ Recursion day2!!
+ 
